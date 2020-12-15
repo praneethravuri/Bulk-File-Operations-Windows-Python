@@ -23,7 +23,8 @@ class OperationsOnFiles:
                         i += 1
                 return ""
 
-        # Renames all the files or files with specific extension in the folder with a number attached to the end of the file name
+        # Renames all the files or files with specific extension in the folder with a number attached to the end of
+        # the file name
         def rename_bulk_files(self):
             i = 0
             path = self.src_path
